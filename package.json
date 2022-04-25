@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "author": "jdcamayos <jd.camayo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec node ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.5.0",
+    "passport": "^0.5.2",
+    "passport-http": "^0.3.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "chalk": "^5.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120,
+    "tabWidth": 2
+  }
+}
